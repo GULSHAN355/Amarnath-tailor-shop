@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="hi">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>अमरनाथ सिलाई - पैंट और शर्ट</title>
+  <style>
+    :root{--bg:#f7f7f9;--accent:#2b6cb0;--card:#ffffff;--muted:#666}
+    body{font-family:system-ui,-apple-system,Segoe UI,Roboto,'Noto Sans',Arial; margin:0;background:var(--bg);color:#111}
+    .container{max-width:900px;margin:28px auto;padding:20px}
+    header{display:flex;align-items:center;gap:16px}
+    .logo{width:84px;height:84px;border-radius:12px;background:linear-gradient(135deg,var(--accent),#4c9bd6);display:flex;align-items:center;justify-content:center;color:white;font-weight:700;font-size:20px}
+    h1{margin:0;font-size:28px}
+    p.lead{margin:6px 0 18px;color:var(--muted)}
+    .card{background:var(--card);padding:18px;border-radius:12px;box-shadow:0 6px 18px rgba(20,20,40,0.06);margin-bottom:16px}
+    .grid{display:grid;grid-template-columns:1fr 280px;gap:16px}
+    ul.services{list-style:none;padding:0;margin:0}
+    ul.services li{padding:10px 0;border-bottom:1px dashed #eee}
+    .address small{color:var(--muted)}
+    .btn{display:inline-block;padding:10px 14px;border-radius:10px;background:var(--accent);color:white;text-decoration:none}
+    footer{margin-top:18px;text-align:center;color:var(--muted);font-size:13px}
+    @media(max-width:820px){.grid{grid-template-columns:1fr} .logo{width:64px;height:64px}}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="logo">A</div>
+      <div>
+        <h1>अमरनाथ सिलाई</h1>
+        <p class="lead">पैंट • शर्ट • सिलाई और मरम्मत — भरोसेमंद स्थानीय दर्जी</p>
+      </div>
+    </header>
+
+    <div class="grid">
+      <main>
+        <section class="card">
+          <h2>हमारी सेवाएँ</h2>
+          <ul class="services">
+            <li><strong>पैंट सिलाई</strong> — फिटिंग, कमर ठीक करना, लंबाई काटना/बढ़ाना</li>
+            <li><strong>शर्ट सिलाई</strong> — स्लीव एडजस्ट, कॉलर रिपेयर, सिलाई फिनिशिंग</li>
+            <li><strong>मरम्मत व डिज़ाइन</strong> — ज़िप बदलना, टैग लगाना, छोटे बदलाव</li>
+            <li><strong>विशेष ऑर्डर</strong> — शादी-सम्मान आदि के लिए असदेश अनुसार सिलाई</li>
+          </ul>
+        </section>
+
+        <section class="card">
+          <h2>कीमतों का अंदाज़ (नमुना)</h2>
+          <p>किसी भी काम के लिए सटीक दाम देखने/बताने के लिए कपड़ा और काम देखकर ही तय होता है। नीचे कुछ अनुमानित रेट दिए जा रहे हैं:</p>
+          <ul class="services">
+            <li>पैंट का हेम/लम्बाई शॉर्ट करना — ₹70 - ₹150</li>
+            <li>शर्ट की स्लीव/कॉलर मरम्मत — ₹80 - ₹200</li>
+            <li>ज़िप बदलवाना — ₹60 - ₹150</li>
+          </ul>
+        </section>
+
+        <section class="card">
+          <h2>हमारे बारे में</h2>
+          <p>नमस्ते — मालिक का नाम <strong>अमरनाथ</strong> है। हम पारंपरिक तरीक़े से सिलाई करते हैं और अच्छे फिट पर ज़ोर देते हैं। छोटे-मोटे ऑर्डर और इमरजेंसी काम का स्वागत है।</p>
+        </section>
+      </main>
+
+      <aside>
+        <div class="card address">
+          <h3>पता</h3>
+          <p>Ormaoura — Jayaswal Dhaba के अंदर, Santkinaram Mahavidhalay के पास, Rode Shiv Mandir के पास</p>
+          <p><small>कृपया सही दिशा/मौके के लिए अमरनाथ से संपर्क करें।</small></p>
+          <p><strong>फोन:</strong> 7080234005</p>
+          <p style="margin-top:10px"><a class="btn" href="https://www.google.com/maps/search/?api=1&query=Ormaoura+Jayaswal+Dhaba+Santkinaram+Mahavidhalay+Rode+Shiv+Mandir" target="_blank" rel="noopener">रूट देखें (Google Maps)</a></p>
+        </div>
+
+        <div class="card">
+          <h3>खुलने का समय</h3>
+          <p>सोम-शुक्र: 9:00 AM — 7:00 PM<br>शनिवार: 9:00 AM — 5:00 PM<br>रविवार: बंद/सीमित (कस्टमर रिक्वेस्ट पर खुला)</p>
+        </div>
+
+        <div class="card">
+          <h3>ऑर्डर कैसे दें</h3>
+          <p>कपड़ा साथ लाकर दुकान पर दिखाएँ — फिटिंग वहीं पर की जाएगी। बड़े ऑर्डर के लिए अग्रिम बात कर लें।</p>
+        </div>
+      </aside>
+    </div>
+
+    <footer>
+      © <span id="year"></span> अमरनाथ सिलाई — सर्वाधिकार सुरक्षित
+    </footer>
+  </div>
+
+  <script>document.getElementById('year').innerText=new Date().getFullYear();</script>
+</body>
+</html>
